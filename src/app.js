@@ -10,7 +10,7 @@ const cors = require("cors");
 app.use(express.static("./public"));
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: ["https://devtinder-f7f3.onrender.com"],
     credentials: true,
   })
 );
